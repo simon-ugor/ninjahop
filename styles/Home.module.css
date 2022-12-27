@@ -39,6 +39,12 @@
   font-family: var(--font-mono);
 }
 
+.codeBigger {
+  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: 8vw;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
