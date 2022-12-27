@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -52,11 +53,9 @@ export default function Home() {
             </p>
           </a>
 
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <Link
+            href="/pravidla"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h3 className={inter.className}>
               Pravidlá <span>-&gt;</span>
@@ -64,13 +63,11 @@ export default function Home() {
             <p className={inter.className}>
               Prečítajte si pravidlá hry Ninja Hop a ako sa zapojiť.
             </p>
-          </a>
+          </Link>
 
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <Link
+            href="/onas"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h3 className={inter.className}>
               O nás <span>-&gt;</span>
@@ -78,13 +75,11 @@ export default function Home() {
             <p className={inter.className}>
               Bližšie informácie o nás a o našej hre Ninja Hop.
             </p>
-          </a>
+          </Link>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <Link
+            href="/ochranasukromia"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h3 className={inter.className}>
               Ochrana súkromia <span>-&gt;</span>
@@ -92,7 +87,7 @@ export default function Home() {
             <p className={inter.className}>
               Prečítajte si naše zásady ochrany osobných údajov.
             </p>
-          </a>
+          </Link>
         </div>
       </main>
     </>
