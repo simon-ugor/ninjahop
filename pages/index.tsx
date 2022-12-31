@@ -21,7 +21,7 @@ export default function Home() {
             Vitaj Ninja!
             
           </p>
-          <div>
+          <div className={styles.ninjahopdiv}>
             <a
               href="https://instagram.com/coldendev"
               target="_blank"
