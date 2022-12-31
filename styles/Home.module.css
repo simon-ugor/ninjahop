@@ -43,6 +43,7 @@
   font-weight: 700;
   font-family: var(--font-mono);
   font-size: 15vw;
+  white-space: nowrap;
 }
 
 .grid {
