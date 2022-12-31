@@ -26,7 +26,7 @@ export default function Home() {
               href="https://instagram.com/coldendev"
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.code}
+              className={styles.codeSecondary}
             >
               By{' '}
               <h1 className={styles.coldendev}>ColdenDev</h1>

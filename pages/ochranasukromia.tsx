@@ -22,9 +22,15 @@ export default function Home() {
 
         <br/><br/><br/>
 
-        <div className={styles.grid}>
-            
-        </div>
+        <Link
+            href="/"
+            className={styles.card}
+          >
+            <h3 className={inter.className}>
+            <span>&lt;-</span> Späť
+            </h3>
+        </Link>
+
       </main>
     </div>
   )

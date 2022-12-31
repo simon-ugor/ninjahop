@@ -40,6 +40,12 @@
   color: white;
 }
 
+.codeSecondary {
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: white;
+}
+
 .codeBigger {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -216,7 +222,7 @@
     height: 300px;
   }
 
-  .code {
+  .codeSecondary {
     background: black;
     border-radius: 25px;
   }
