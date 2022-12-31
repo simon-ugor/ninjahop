@@ -199,10 +199,6 @@
     text-align: center;
   }
 
-  .coldendevdiv {
-    background: black;
-  }
-
   .card {
     padding: 1rem 2.5rem;
   }
@@ -218,6 +214,11 @@
   .center::before {
     transform: none;
     height: 300px;
+  }
+
+  .code {
+    background: black;
+    border-radius: 25px;
   }
 
   .description {
@@ -253,11 +254,6 @@
     inset: auto 0 0;
     padding: 2rem;
     height: 200px;
-    background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      rgb(var(--background-end-rgb)) 40%
-    );
     z-index: 1;
   }
 }
