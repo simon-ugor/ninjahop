@@ -16,7 +16,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-
+        <div className={styles.description}>
+          <p>
+            Vitaj Ninja!
+            
+          </p>
+          <div>
+            <a
+              href="https://instagram.com/coldendev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.code}
+            >
+              By{' '}
+              <h1>ColdenDev</h1>
+            </a>
+          </div>
+        </div>
 
         <div className={styles.center}>
           <h1 className={styles.codeBigger}>Ninja Hop</h1>
