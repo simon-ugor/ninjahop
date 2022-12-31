@@ -40,10 +40,10 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
+            target=""
+            rel=""
           >
             <h3 className={inter.className}>
               Stiahnuť <span>-&gt;</span>
