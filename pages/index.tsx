@@ -29,7 +29,7 @@ export default function Home() {
               className={styles.code}
             >
               By{' '}
-              <h1>ColdenDev</h1>
+              <h1 className={styles.coldendev}>ColdenDev</h1>
             </a>
           </div>
         </div>
