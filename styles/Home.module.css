@@ -205,6 +205,10 @@
     text-align: center;
   }
 
+  .main {
+    padding: 2rem;
+  }
+
   .card {
     padding: 1rem 2.5rem;
   }

@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Ninja Hop - Ochrana súkromia</title>
         <meta name="description" content="Zásady ochrany osobných údajov" />
