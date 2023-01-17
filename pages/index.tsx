@@ -66,14 +66,14 @@ export default function Home() {
           </Link>
 
           <Link
-            href="/onas"
+            href="/dostupnost"
             className={styles.card}
           >
             <h3 className={inter.className}>
-              O nás <span>-&gt;</span>
+              Dostupnosť <span>-&gt;</span>
             </h3>
             <p className={inter.className}>
-              Bližšie informácie o nás a o našej hre Ninja Hop.
+              Bližšie informácie o dostupnosti hry Ninja Hop.
             </p>
           </Link>
 
