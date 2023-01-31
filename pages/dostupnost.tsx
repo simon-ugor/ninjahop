@@ -19,7 +19,7 @@ export default function Home() {
           Dostupnosť
         </h1>
         <p className={inter.className} style={{"textAlign": "center", "marginBottom": "1vh", "fontWeight": "bold"}}>Kde je hra Ninja Hop dostupná?</p>
-        <p className={inter.className} style={{"textAlign": "center", "marginBottom": "1vh"}}>Hra Ninja Hop je dostupná na Google Play Store a Apple App Store a je výhradne určená pre mobilné zariadenia. Tablety a iné podobné zariadenia momentálne nie sú podporované.</p>
+        <p className={inter.className} style={{"textAlign": "center", "marginBottom": "1vh"}}>Hra Ninja Hop je dostupná na <a href='https://play.google.com/store/apps/details?id=com.coldendev.ninjahop' style={{"textDecoration": "underline"}} target="_blank">Google Play Store</a> a <a href='https://apps.apple.com/sk/app/ninja-hop/id1661586190' style={{"textDecoration": "underline"}} target="_blank">Apple App Store</a> a je výhradne určená pre mobilné zariadenia. Tablety a iné podobné zariadenia momentálne nie sú podporované.</p>
 
         <br/><br/><br/>
 
