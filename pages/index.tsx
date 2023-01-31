@@ -40,7 +40,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="/stiahnut"
+            href="https://www.ninjahop.sk/stiahnut"
             className={styles.card}
             target=""
             rel=""
