@@ -30,6 +30,8 @@ export default function Home() {
         <p className={inter.className} style={{"textAlign": "center", "marginBottom": "1vh"}}>Po vynulovaní tabuľky hra pokračuje ďalej a zbieraš nové body v novom mesiaci. Po 3 mesiacoch sa tvoje body zrátajú dokopy a môžeš sa stať ultimátny šampión a získať rozprávkovú výhru 200 000€.</p>
         <p className={inter.className} style={{"textAlign": "center", "marginBottom": "1vh", "fontWeight": "bold"}}>Ako dlho môžeš zbierať body?</p>
         <p className={inter.className} style={{"textAlign": "center", "marginBottom": "1vh"}}>Zbierať súťažné body do tabuľky môžeš počas mesiacov február - marec - apríl. Hru si ale môžeš zahrať kedykoľvek len tak pre zábavu počas celého roka.</p>
+        <p className={inter.className} style={{"textAlign": "center", "marginBottom": "1vh", "fontWeight": "bold"}}>Ako sa dostanem k výhre?</p>
+        <p className={inter.className} style={{"textAlign": "center", "marginBottom": "1vh"}}>Na začiatku hry je pre každého hráča vygenerovaný unikátny osobný kód ktorý je špecifický pre dané zariadenie a na konci mesiaca bude použitý na identifikovanie výhercu. Ak sa chceš zapojiť do súťaže je počas hrania vysoko odporúčané mať internetové pripojenie kvôli správnemu zapisovaniu tvojich bodov.</p>
 
         <br/><br/><br/>
 
