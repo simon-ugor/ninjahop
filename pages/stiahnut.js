@@ -35,9 +35,9 @@ export default function Home({deviceInfo, testMessage}) {
 
   useEffect(() => {
     if(testMessage == "ios"){
-      window.location.assign("https://apps.apple.com/sk/app/hack-the-game/id1637511745") 
+      window.location.assign("https://apps.apple.com/sk/app/ninja-hop/id1661586190") 
     } else {
-      window.location.assign("https://play.google.com/store/apps/details?id=com.coldendev.hackthegame")
+      window.location.assign("https://play.google.com/store/apps/details?id=com.coldendev.ninjahop")
     }
     
   })
