@@ -45,8 +45,8 @@ export default function Home({deviceInfo, testMessage}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ColdenDev - Hack The Game</title>
-        <meta name="description" content="Hack The Game - mobile game developed by ColdenDev" />
+        <title>Ninja Hop - Stiahnuť</title>
+        <meta name="description" content="Ninja Hop - hraj a vyhraj" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
