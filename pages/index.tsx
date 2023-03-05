@@ -15,6 +15,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className='header-div'>
+        <h3 className='header-text'>Súťaž z technických príčin zrušená</h3>
+      </div>
       <main className={styles.main}>
         <div className={styles.description}>
           <p className={styles.welcome}>
