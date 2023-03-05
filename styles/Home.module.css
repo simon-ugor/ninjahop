@@ -231,8 +231,15 @@
     border-radius: 25px;
   }
 
+  .display-none {
+    display: none;
+  }
+
+  /*
+
   .description {
     font-size: 0.8rem;
+    display: none;
   }
 
   .description a {
@@ -266,6 +273,8 @@
     height: 200px;
     z-index: 1;
   }
+  */
+
 }
 
 /* Tablet and Smaller Desktop */
@@ -278,10 +287,6 @@
 @media (prefers-color-scheme: dark) {
   .vercelLogo {
     filter: invert(1);
-  }
-    
-  .description {
-    display: none;
   }
 
   .logo,

@@ -19,8 +19,9 @@ export default function Home() {
         <h3 className='header-text'>Súťaž z technických príčin zrušená</h3>
       </div>
       <main className={styles.main}>
-        <div className={styles.description}>
-          <p className={styles.welcome} id="vitaj-ninja">
+        {/*
+        <div className="display-none">
+          <p>
             Vitaj Ninja!
             
           </p>
@@ -36,6 +37,7 @@ export default function Home() {
             </a>
           </div>
         </div>
+        */}
 
         <div className={styles.center}>
           <h1 className={styles.codeBigger}>Ninja Hop</h1>
