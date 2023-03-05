@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p className={styles.welcome}>
+          <p className={styles.welcome} id="vitaj-ninja">
             Vitaj Ninja!
             
           </p>

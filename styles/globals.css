@@ -37,6 +37,7 @@ a {
   height: 9%;
   background-color: white;
   text-align: center;
+  top: 0%;
 }
 
 .header-text {
@@ -54,5 +55,9 @@ a {
   .header-text {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  #vitaj-ninja {
+    display: none;
   }
 }
